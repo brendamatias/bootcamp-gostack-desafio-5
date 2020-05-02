@@ -38,8 +38,8 @@ Essa será uma aplicação para que deve armazenar transações financeiras de e
 ## 🔥 Funcionalidades
 
 Neste projeto, as rotas foram implementadas usando métodos HTTP:
-* `GET /transactions` => Listar todas as transações junto com o valor de soma de entradas, retiradas e total de crédito.
-* `POST /transactions` => Criar uma nova transação.
+- **`POST /transactions`**: A rota deve receber `title`, `value` e `type` dentro do corpo da requisição, sendo `type` o tipo da transação, que deve ser `income` para entradas (depósitos) e `outcome` para saidas (retiradas).
+- **`GET /transactions`**: Essa rota deve retornar uma listagem com todas as transações que você cadastrou até agora, junto com o valor de soma de entradas, retiradas e total de crédito.
 
 ## ⚙️ Tecnologias
 
@@ -86,7 +86,7 @@ yarn dev:server
 ---
 
 <h4 align="center">
-  “Não espere para plantar, apenas tenha paciência para colher”!
+  “Para quem fica melhor a cada dia, ficar pronto é utopia”!
 </h4>
 
 <p align="center">
